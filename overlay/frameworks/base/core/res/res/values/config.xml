@@ -76,10 +76,10 @@
     <integer name="config_screenBrightnessSettingMinimum">1</integer>
 
     <!-- Fast brightness animation ramp rate in brightness units per second-->
-    <integer translatable="false" name="config_brightness_ramp_rate_fast">180</integer>
+    <integer translatable="false" name="config_brightness_ramp_rate_fast">80</integer>
 
     <!-- Slow brightness animation ramp rate in brightness units per second-->
-    <integer translatable="false" name="config_brightness_ramp_rate_slow">60</integer>
+    <integer translatable="false" name="config_brightness_ramp_rate_slow">40</integer>
 
     <!-- Stability requirements in milliseconds for accepting a new brightness level.  This is used
          for debouncing the light sensor.  Different constants are used to debounce the light sensor
