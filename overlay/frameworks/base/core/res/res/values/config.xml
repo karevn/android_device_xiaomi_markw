@@ -34,7 +34,7 @@
     <integer-array name="config_autoBrightnessLevels">
         <item>1</item>        <!-- pitch black -->
         <item>5</item>        <!-- dark indoor -->
-        <item>40</item>       <!-- twilight -->
+        <item>25</item>       <!-- twilight -->
         <item>80</item>       <!-- dim indoor -->
         <item>225</item>      <!-- home -->
         <item>450</item>      <!-- office -->
@@ -49,10 +49,10 @@
          than the size of the config_autoBrightnessLevels array.
          This must be overridden in platform specific overlays -->
     <integer-array name="config_autoBrightnessLcdBacklightValues">
-        <item>1</item>        <!-- 0-1 -->
+        <item>3</item>        <!-- 0-1 -->
         <item>8</item>        <!-- 1-5 -->
-        <item>16</item>       <!-- 5-40 -->
-        <item>21</item>       <!-- 40-80 -->
+        <item>16</item>       <!-- 5-25 -->
+        <item>21</item>       <!-- 25-80 -->
         <item>32</item>       <!-- 80-225 -->
         <item>72</item>       <!-- 225-450 -->
         <item>96</item>       <!-- 450-800 -->
