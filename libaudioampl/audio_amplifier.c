@@ -95,9 +95,6 @@ static int amp_set_output_devices(amplifier_device_t *device, uint32_t devices)
 static int amp_enable_output_devices(amplifier_device_t *device,
         uint32_t devices, bool enable)
 {
-    if (is_speaker(devices) && !enable) {
-      speaker_ref_count = 0;
-    }
     if (is_speaker(devices) && enable) {
       amplifier_enable();
     }
