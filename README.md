@@ -1,4 +1,6 @@
-Copyright 2017 - The Mokee Opensource Project
+Copyright 2017 - The Mokee Opensource Project, and others
+
+
 
 Device configuration for Xiaomi Redmi 4 (_markw_)
 =====================================================
@@ -26,4 +28,3 @@ LED | Yes (Awinic AW2013)
 Release Date | November 2016
 
 ![Xiaomi Redmi 4 Prime](http://cdn2.gsmarena.com/vv/pics/xiaomi/xiaomi-redmi-4-prime-2.jpg "Xiaomi Redmi 4 Prime")
-
