@@ -1,6 +1,30 @@
 Copyright 2017 - The Mokee Opensource Project, and others
 
+Before submitting an issue
+==========================
 
+1. Make sure the problem is relevant to this project and is not caused by
+Android or Lineage OS, etc itself.
+2. Find the most simple way to reproduce the problem.
+3. Gather logs from logcat, dmesg and /sys/fs/pstore for the shortest period of
+time possible, but covering the issue
+
+As there are many irrelevant issues - all the issues not matching the guides
+above will be closed.
+
+
+Перед тем как отправить issue
+=============================
+
+1. Удостоверьтесь, что проблема вызвана именно этой сборкой, а не является
+проблемой самой Lineage OS, Android или приложения.
+2. Найдите самый простой и короткий путь воспроизведения проблемы и опишите его
+в деталях.
+3. Соберите логи logcat, dmesg и содержимое /sys/fs/pstore за минимальный период
+времени, покрывающий время появления проблемы.
+
+Issue, для которых не выполнены указанные требования, закрываются до момента
+правильного оформления. Спасибо за понимание.
 
 Device configuration for Xiaomi Redmi 4 (_markw_)
 =====================================================
