@@ -310,9 +310,9 @@ case "$target" in
                 echo 1 > /sys/devices/system/cpu/cpufreq/impulse/use_migration_notif
 
                 # Only boost power cores
-                echo "652800 1401600" > /sys/kernel/cpu_input_boost/ib_freqs
+                echo "1401600 1401600" > /sys/kernel/cpu_input_boost/ib_freqs
                 #Input boost duration
-                echo 400 > /sys/kernel/cpu_input_boost/ib_duration_ms
+                echo 500 > /sys/kernel/cpu_input_boost/ib_duration_ms
                 echo 1 > /sys/kernel/cpu_input_boost/enabled
 
                 # Don't put new tasks on the core which is 70% loaded
